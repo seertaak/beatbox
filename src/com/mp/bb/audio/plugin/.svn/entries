@@ -1,0 +1,63 @@
+10
+
+dir
+0
+svn+ssh://46.137.169.13/mpc/svn/BeatBox3/src/com/mp/bb/audio/plugin
+svn+ssh://46.137.169.13/mpc/svn
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2e0052a8-1d7e-4ed0-a672-be44ef2f7cd0
+
+AudioPlugin.java
+file
+
+
+
+add
+
+AudioPluginException.java
+file
+
+
+
+add
+
+GainPlugin.java
+file
+
+
+
+add
+
+PluginAction.java
+file
+
+
+
+add
+
+PluginProperty.java
+file
+
+
+
+add
+

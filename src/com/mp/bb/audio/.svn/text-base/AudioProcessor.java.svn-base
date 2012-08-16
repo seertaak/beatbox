@@ -1,0 +1,8 @@
+package com.mp.bb.audio;
+
+public interface AudioProcessor {
+	
+	int id();
+	void process(float[] data);
+	
+}

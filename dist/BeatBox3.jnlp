@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BeatBox3.jnlp">
+  <information>
+    <title>BeatBox3</title>
+    <vendor>Martin Percossi</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.0+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-server -Duser.language=en -Duser.country=US -Djava.library.path="C:\Programming\Projects\JRtAudioNative\Debug" "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BeatBox3.jar" size="380299" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="BeatBox3" >
+    <param name="requiredFXVersion" value="2.0+"/>
+  </applet>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.mp.bb.BeatBox"  name="BeatBox3" />
+  <update check="background"/>
+</jnlp>

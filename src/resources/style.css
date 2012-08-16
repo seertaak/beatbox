@@ -1,0 +1,44 @@
+#signalChart .chart-series-line {
+    -fx-stroke: black;
+    -fx-stroke-width: 1.0px;
+    -fx-effect: null;
+    -fx-padding: 0px;
+}
+
+#detectionChart .chart-series-line {
+    -fx-stroke-width: 1.5px;
+    -fx-effect: null;
+    -fx-padding: 0px;
+}
+
+.axis {
+    -fx-tick-mark-visible: false;
+    -fx-minor-tick-visible: false;
+    -fx-tick-length: 0;
+    -fx-minor-tick-length: 0;
+    -fx-border-color: transparent;
+}
+.axis:bottom {
+    -fx-border-color: black transparent transparent transparent;
+}
+.axis:left {
+    -fx-border-color: transparent black transparent transparent;
+}
+.chart-content {
+    -fx-padding: 0px;
+}
+
+#record-button {
+    -fx-base: firebrick;
+    -fx-scale-y: 0.5;
+    -fx-scale-x: 0.7;
+}
+
+#record-settings-hbox {
+    -fx-font: 20 arial;
+}
+
+.loop-length-choicebox {
+    -fx-text-alignment: right;
+}
+
